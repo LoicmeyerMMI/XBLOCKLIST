@@ -5,8 +5,8 @@ const clearListBtn = document.getElementById('clearList');
 const syncBtn = document.getElementById('sync');
 const profileList = document.getElementById('profileList');
 
-const BLOCKLIST_URL = 'https://raw.githubusercontent.com/TON_USER/TON_REPO/main/blocklist.json'; // 🔁 À modifier
-const PENDING_URL = 'https://raw.githubusercontent.com/TON_USER/TON_REPO/main/pending.json';   // 🔁 À modifier
+const BLOCKLIST_URL = 'https://raw.githubusercontent.com/LoicmeyerMMI/XBLOCKLIST/refs/heads/main/blocklist.json'; // 🔁 À modifier
+const PENDING_URL = 'https://raw.githubusercontent.com/LoicmeyerMMI/XBLOCKLIST/refs/heads/main/pending.json';   // 🔁 À modifier
 
 // 🔧 Helper: Normalise un @username ou une URL en nom d'utilisateur
 function extractUsername(input) {
